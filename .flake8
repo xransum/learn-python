@@ -1,0 +1,26 @@
+[flake8]
+select = B,B9,BLK,C,E,F,I,S,W
+application-import-names = learn_python,tests
+import-order-style = google
+docstring-convention = google
+# E501: ignores for either SQL, regex, or ticket description long lines
+# W291: ignores for space prefacing "AND" on next line in SQL (or similar)
+# W605: ignores for legacy/C-style escapes in regexes that I don't understand the usage of. TODO: Fix.
+# E402: ignores mid-file imports in __init__.py, by design due to the nature of
+#       modules inter-depending on each other.
+# N801: ignores lowercase class names in Pilsner as it is intentional
+#       for the way Pilsner is structured in generating client config data
+# TODO: Fix W291 and E501 by converting SQL statements to parenthesized single
+#       line fstrings or similar
+# F401: ignores unused imports
+# S101: ignores use of assert detected
+# I100: ignores import statements in the wrong order.
+ignore = 
+    E203,
+    W503,
+    E722,
+    I100,
+    I202,
+per-file-ignores =
+    tests/*: S101, ANN
+max_line_length = 88
