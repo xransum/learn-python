@@ -1,2 +1,0 @@
-"""Learn Python - Medium Section"""
-

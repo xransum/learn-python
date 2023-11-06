@@ -1,2 +1,0 @@
-"""Learn Python Exercises - Medium"""
-
