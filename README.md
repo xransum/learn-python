@@ -1,11 +1,19 @@
 # Learn Python
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Install Using Poetry (Alternative)](#install-using-poetry-alternative)
+- [Getting Started](#getting-started)
+  - [Introduction](#introduction)
+
 ## Requirements
 
 - Python 3.8+
 - Jupyter
 
-### Installation
+## Installation
 
 
 **Clone the repository:**
@@ -40,7 +48,7 @@ python -m jupyter notebook --host=0.0.0.0 --port=8000
 To learn more on Jupyter Notebooks, you can check out [Getting Started with Jupyter Notebooks](./01-introduction/04-getting-started-with-jupyter-notebooks.ipynb)
 for a guide as well.
 
-#### Install Using Poetry (Alternative)
+### Install Using Poetry (Alternative)
 
 
 **Install Poetry:**
@@ -62,7 +70,7 @@ poetry run jupyter notebook --host=0.0.0.0 --port=8000
 
 ## Getting Started
 
-As of currently the below are the only documents, ordered by most popular ciriculum.
+As of currently the below are the only documents, ordered by most popular curriculums.
 
 ### Introduction
 
